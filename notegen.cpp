@@ -53,14 +53,17 @@ void updateRootReadme(const string& topic) {
 }
 
 // Updates the topic's README.md by appending the new problem
-void updateTopicReadme(const string& topicPath, const string& fileName, const string& problemTitle) {
+// Change this function
+void updateTopicReadme(const string& topicPath, const string& fileName, int problemNumber, const string& problemTitle) {
     string topicReadmePath = topicPath + "/README.md";
     ofstream outfile(topicReadmePath, ios::app);
     if (!outfile.is_open()) {
         cerr << "Error: Could not write to " << topicReadmePath << "\n";
         return;
     }
-    outfile << formatLink("./" + fileName, problemTitle) << "\n";
+    // Create the new link text including the problem number
+    string linkText = to_string(problemNumber) + ". " + problemTitle;
+    outfile << formatLink("./" + fileName, linkText) << "\n";
     outfile.close();
 }
 
@@ -148,8 +151,11 @@ int main() {
     }
 
     createProblemMarkdown(fullPath, problemTitle);
-    updateTopicReadme(topicPath, fileName, problemTitle);
+    updateTopicReadme(topicPath, fileName, problemNumber, problemTitle);
     updateRootReadme(topic);
+
+    cout << "\n✅ Note created successfully at: " << fullPath << "\n";
+    return 0;
 
     cout << "\n✅ Note created successfully at: " << fullPath << "\n";
     return 0;
