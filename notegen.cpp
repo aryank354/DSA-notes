@@ -76,7 +76,7 @@ void createProblemMarkdown(const string& fullPath, const string& title) {
     }
 
     mdfile << "# " << title << "\n\n";
-    mdfile << "###Problem link :-[paste here]\n\n";
+    mdfile << "### Problem link :-[paste here]\n\n";
     mdfile << "## ❓ Problem Statement\n\n";
     mdfile << "[PASTE_PROBLEM_STATEMENT_FROM_LEETCODE_HERE]\n\n";
     mdfile << "### example test cases\n\n";
