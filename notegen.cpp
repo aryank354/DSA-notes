@@ -76,14 +76,14 @@ void createProblemMarkdown(const string& fullPath, const string& title) {
     }
 
     mdfile << "# " << title << "\n\n";
-    mdfile << "### Problem link :-[paste here]\n\n";
-    mdfile << "## ❓ Problem Statement\n\n";
+    mdfile << "### ### Problem [Link](paste here)\n\n";
+    mdfile << "## Problem Statement\n\n";
     mdfile << "[PASTE_PROBLEM_STATEMENT_FROM_LEETCODE_HERE]\n\n";
     mdfile << "### example test cases\n\n";
     mdfile << "[PASTE_EXAMPLE_TEST_CASES_FROM_LEETCODE_HERE]\n\n";
     mdfile << "---\n";
     mdfile << "## 💡 Approaches\n\n";
-    mdfile << "###📌 Best Approach from all of them below\n";
+    mdfile << "### 📌 Best Approach \n";
     mdfile << "[EXPLAIN_THE_BEST_APPROACH_LOGIC_HERE]\n";
     mdfile << "#### Code (C++)\n";
     mdfile << "```cpp\n// [PASTE_YOUR_BEST_APPROACH_CODE_SOLUTION_HERE]\n\n```\n";
