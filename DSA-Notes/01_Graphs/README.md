@@ -1,5 +1,5 @@
-# 01_Graphs
+# Graphs
 
 
 ## Problems
-- [Connected Components](./001_Connected_Components.md)
+- [1. Connected Components](./001_Connected_Components.md)
