@@ -1,52 +1,52 @@
     # DSU
 
 ## What is disjoint sets:
-![alt text](./images/image-1.png)
+![alt text](./images_DSU/image-1.png)
 
 ## Two operations of DSU 
-![alt text](./images/image-15.png)
+![alt text](./images_DSU/image-15.png)
 
 ## Dry run 
-![alt text](./images/image-2.png)
+![alt text](./images_DSU/image-2.png)
 ---
-![alt text](./images/image-3.png)
+![alt text](./images_DSU/image-3.png)
 ---
-![alt text](./images/image-4.png)
+![alt text](./images_DSU/image-4.png)
 ---
-![alt text](./images/image-5.png)
+![alt text](./images_DSU/image-5.png)
 ---
-![alt text](./images/image-6.png)
+![alt text](./images_DSU/image-6.png)
 ---
-![alt text](./images/image-7.png)
+![alt text](./images_DSU/image-7.png)
 ---
-![alt text](./images/image-8.png)
+![alt text](./images_DSU/image-8.png)
 ---
-![alt text](./images/image-9.png)
+![alt text](./images_DSU/image-9.png)
 ---
 ### Now Learning combine union in which we need to call Find to obtain their parents
-![alt text](./images/image-10.png)
+![alt text](./images_DSU/image-10.png)
 ---
-![alt text](./images/image-11.png)
+![alt text](./images_DSU/image-11.png)
 ---
-![alt text](./images/image-12.png)
+![alt text](./images_DSU/image-12.png)
 ---
-![alt text](./images/image-13.png)
+![alt text](./images_DSU/image-13.png)
 
 ### Similarly we can perform two operations find and join
 
 ## Pseudo code for find function
-![alt text](./images/image-14.png)
+![alt text](./images_DSU/image-14.png)
 This is without path compression and rank optimization
 
 ## Pseudo code for Join function
-![alt text](./images/im2.png)
-![alt text](./images/image-111.png)
-![alt text](./images/image-2222.png)
+![alt text](./images_DSU/im2.png)
+![alt text](./images_DSU/image-111.png)
+![alt text](./images_DSU/image-2222.png)
 
 Furthur optimizations in the join or union function can be done by using rank method by which we can make parent of the smaller tree point to the parent of the larger tree. This will help in keeping the height of the tree small and thus making the find operation faster.
 
 Because here we can see that we are making randon parent 
-![alt text](./images/image-111.png)
+![alt text](./images_DSU/image-111.png)
 but here we can insert a check to see the rank of the nodes , which node haiving more rank will be the parent of the node having less rank
 
 
