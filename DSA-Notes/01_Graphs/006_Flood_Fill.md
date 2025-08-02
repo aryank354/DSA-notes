@@ -14,6 +14,22 @@ You are given an image represented by an m x n grid of integers image, where ima
 ---
 ## 💡 Approaches
 
+### Why not DSU?
+DSU shines when:
+
+You need union/find queries efficiently.
+
+You’re processing a dynamic number of connected components.
+
+Problems like:
+
+Number of Islands (with DSU)
+
+Kruskal’s MST
+
+Dynamic connectivity
+
+Accounts Merge
 
 ### Approach 1
 We can use Depth-First Search (DFS) to traverse the image and change the color of the pixels connected to the starting pixel. The DFS will explore all four directions (up, down, left, right) from the current pixel and change the color if the pixel matches the original color. , we have to store the color which have to color.
