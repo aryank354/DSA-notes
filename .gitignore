@@ -1,0 +1,10 @@
+# Ignore build directories
+build/
+bin/
+# Ignore temporary files
+*.tmp
+*.log
+# Ignore backup files
+*.bak  
+notegen.cpp
+notegen         

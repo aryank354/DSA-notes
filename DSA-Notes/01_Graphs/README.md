@@ -10,3 +10,4 @@
 - [5. Number of Islands](./005_Number_of_Islands.md)
 - [6. Flood Fill](./006_Flood_Fill.md)
 - [7. Rotten Oranges](./007_Rotten_Oranges.md)
+- [8. Connected components 2](./008_Connected_components_2.md)
