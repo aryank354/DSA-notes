@@ -1,4 +1,4 @@
-# DSU
+    # DSU
 
 ## What is disjoint sets:
 ![alt text](./images/image-1.png)
