@@ -69,19 +69,6 @@ class Solution {
 };
 ```
 #### TC and SC
-- **Time Complexity:** [ADD_TIME_COMPLEXITY_HERE]
-- **Space Complexity:** [ADD_SPACE_COMPLEXITY_HERE]
-
----
-
-### Approach 1
-[EXPLAIN_APPROACH_1_LOGIC_HERE]
-#### Code (C++)
-```cpp
-// [PASTE_CODE_FOR_APPROACH_1_HERE]
-
-```
-#### TC and SC
 - **Time Complexity:** O(N*M), where N is the number of rows and M is the number of columns in the grid. Each cell is processed at most once.
 
 - **Space Complexity:** O(N*M) for the queue and visited array, where N is the number of rows and M is the number of columns in the grid. 
